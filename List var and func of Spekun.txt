@@ -1,0 +1,13 @@
+struct Spek spot[7] : menyimpan data data dari spot spekun yang berupa :
+	int jmlSpekun : berisi jumlah spekun
+	char nama[15] : berisi nama dari spot spekun
+
+
+void displaySpekun : untuk menampilkan list nama-nama spot spekun dan jumlah spekun pada spot tersebut
+void spekun : function untuk memproses rangkaian peminjaman dan pengembalian spekun serta menerima variabel saldo sebagai parameter 
+
+int saldo : berisi saldo yang dimiliki user
+srand(time(NULL)) : untuk mengacak rand() setiap kali program dirun
+int i : untuk counter
+int input : untuk memilih operasi mana yang ingin dilakukan
+int input2 : untuk memilih spot peminjaman atau pengembalian
